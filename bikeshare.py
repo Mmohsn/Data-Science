@@ -76,7 +76,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+# Loading The data
 def load_data(city, month, day):
     """Load data for the specified filters of city(ies), month(s) and
        day(s) whenever applicable.
@@ -131,9 +131,13 @@ def load_data(city, month, day):
 
     return df
 
+<<<<<<< HEAD
 # This Function To display the statistics for time of travel
+=======
+    """This function for Display the statistics for the most frequent times of travel."""
+>>>>>>> documentation
 def time_stats(df):
-    """Display statistics on the most frequent times of travel."""
+
 
     print('\nDisplaying the statistics on the most frequent times of '
           'travel...\n')
