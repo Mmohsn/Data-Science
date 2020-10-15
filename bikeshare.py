@@ -13,7 +13,7 @@ months = ('january', 'february', 'march', 'april', 'may', 'june')
 weekdays = ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday',
             'saturday')
 
-
+# This Function for let user choose
 def choice(prompt, choices=('y', 'n')):
     """Return a valid input from the user given an array of possible answers.
     """
@@ -130,7 +130,6 @@ def load_data(city, month, day):
     print('-'*40)
 
     return df
-
 
 def time_stats(df):
     """Display statistics on the most frequent times of travel."""
