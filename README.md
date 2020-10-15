@@ -7,7 +7,7 @@ This repository contains bikeshare project for Udacity Programming For Data Scie
 
 #### Files Used
 
-The required files for running this program are: 
+The required files for running this program are 3 Excel Files for data set: 
 
 * washington.csv
 * new_york_city.csv
