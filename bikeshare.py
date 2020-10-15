@@ -76,7 +76,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+# Loading The data
 def load_data(city, month, day):
     """Load data for the specified filters of city(ies), month(s) and
        day(s) whenever applicable.
